@@ -1,0 +1,19 @@
+header{
+	width: 1920px;
+	height: 62px;
+	background: #344051;
+}
+
+.logo{
+line-height: 62px;
+color: white;
+padding-left: 387px;
+font-size: 25px;
+font-family: arial; sans-serif;
+float: left;
+}
+
+.menu{
+	padding-left: 430px;
+	
+}
