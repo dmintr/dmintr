@@ -1,5 +1,5 @@
 header{
-	width: 1920px;
+	width: 100%;
 	height: 62px;
 	background: #344051;
 }
@@ -20,18 +20,82 @@ float: left;
 
 .menu li{
 	float: left;
-	line-height: 60px;
+	line-height: 62px;
 	color: white;
 	padding-left: 40px;
 	font-size: 20px;
 }
 
-.hello h1{
+.main{
+	width: 100%;
+	height: calc(100% - 62px);
+	background: url(../img/парень.png) 90% 100%/auto 85% no-repeat, url(../img/фон1.png) center/cover no-repeat;
+}
+
+.hello {
+	float: left;
+	padding-left: 404px;
+	text-align: center;
 	color: #2c384a;
 	font-size: 54px;
-	font-size: center;
-	padding-top: 470px;
-	padding-left: 404px;
-
-
+	padding-top: 445px;
 }
+
+.hello h4{
+	color: #79818d;
+	font-size: 22px;
+	padding-top: 15px;
+}
+
+.hello a{
+	color: #828994;
+	font-size: 25px;
+	height: 40px;
+	width: 95px;
+	font-size: 15px;
+	text-align: center;
+	border: 2px solid #828994;
+	border-radius: 5px;
+	background: none;
+}
+
+.main2{
+	background: white;
+	height: 719px;
+	width: 100%;
+}
+
+.about_me{
+	text-align: center;
+	margin-top: 107px;
+}
+
+.about_me h2{
+	color: #263244;
+	font-size: 30px;
+	font-family: arial; sans-serif; 
+	font-weight: 600;
+}
+
+.line{
+	margin-top: 32px;
+}
+
+.foto{
+	margin-top: 62px;
+}
+
+.about_me span{
+	margin-top: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
