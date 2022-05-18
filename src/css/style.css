@@ -86,16 +86,107 @@ float: left;
 }
 
 .about_me span{
-	margin-top: 28px;
+	display: block;
+	margin: 28px;
+	color: #3f495a;
+}
+
+.about_me a{
+	display: inline;
+	color: #6f707e;
+	font-size: 15px;
+	height: 12px;
+	width: 11px;
+	text-align: center;
+	border: 2px solid #6f707e;
+	border-radius: 5px;
+	background: none;
+}
+
+.main3{
+	width: 100%;
+	height: 526px;
+	background: url(../img/фон2.png) no-repeat;
+	background-size: cover;
+}
+
+.item_skills{
+	text-align: center;
+}
+
+.item_skills h2{
+	padding-top: 107px;
+	color: #263244;
+	font-size: 27px;
+	font-family: arial; sans-serif;
+	font-weight: 600;
+}
+
+.skil{
+	float: left;
+	margin-top: 108px;
+	padding-left: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.skil h4{
+	color: #cf7600;
+	margin-top: 40px;
+	font-size: 15px;
+	font-family: arial; sans-serif;
+	font-weight: 600;
+}
+
+.skil span{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	color: #525a69;
+	font-size: 15px;
+	width: 50%;
+}
+
+.skil div{
+	float: left;
+}
+.development{
+	margin-left: 50px;
+}
+
+.seo{
+	margin-left: 50px;
+}
+
+.marketing{
+	margin-left: 50px;
 }
 
 
 
+.main4{
+	background: white;
+	height: 2005px;
+	width: 100%;
+}
 
+.cases{
+	text-align: center;
+	
+}
 
-
-
-
-
-
-
+.cases h2{
+	padding-top: 107px;
+	color: #263244;
+	font-size: 27px;
+	font-family: arial; sans-serif;
+	font-weight: 600;
+}
+.cases p{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	color: #525a69;
+	font-size: 15px;
+	float: center;
+}
