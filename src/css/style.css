@@ -1,16 +1,19 @@
+body{
+	font-family: arial; sans-serif;
+}
+
 header{
-	width: 100%;
-	height: 62px;
 	background: #344051;
+	width: 100%;
+	height: 65px;
 }
 
 .logo{
-line-height: 62px;
-color: white;
-padding-left: 387px;
-font-size: 25px;
-font-family: arial; sans-serif;
-float: left;
+	float: left;
+	font-size: 30px;
+	line-height: 65px;
+	color: white;
+	padding-left: 390px;
 }
 
 .menu{
@@ -19,11 +22,15 @@ float: left;
 }
 
 .menu li{
+	line-height: 65px;
 	float: left;
-	line-height: 62px;
-	color: white;
-	padding-left: 40px;
 	font-size: 20px;
+	text-transform: uppercase;
+	padding-left: 43px;
+}
+
+.menu a{
+	color: white;
 }
 
 .main{
@@ -32,27 +39,32 @@ float: left;
 	background: url(../img/парень.png) 90% 100%/auto 85% no-repeat, url(../img/фон1.png) center/cover no-repeat;
 }
 
+
 .hello {
 	float: left;
 	padding-left: 404px;
 	text-align: center;
+	padding-top: 445px;
+}
+
+.hello h1{
 	color: #2c384a;
 	font-size: 54px;
-	padding-top: 445px;
+	font-weight: bold;
 }
 
 .hello h4{
 	color: #79818d;
 	font-size: 22px;
-	padding-top: 15px;
+	margin-top: 45px;
 }
 
-.hello a{
+.hello input{
+	padding: 10px 15px;
+	margin: 60px 14px 0px 14px;
 	color: #828994;
-	font-size: 25px;
-	height: 40px;
-	width: 95px;
 	font-size: 15px;
+	font-weight: 700;
 	text-align: center;
 	border: 2px solid #828994;
 	border-radius: 5px;
@@ -71,24 +83,26 @@ float: left;
 }
 
 .about_me h2{
+	text-transform: uppercase;
 	color: #263244;
 	font-size: 30px;
 	font-family: arial; sans-serif; 
 	font-weight: 600;
 }
 
-.line{
-	margin-top: 32px;
-}
-
-.foto{
-	margin-top: 62px;
+.about_me hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 35px auto 60px;
 }
 
 .about_me span{
 	display: block;
 	margin: 28px;
 	color: #3f495a;
+	font-weight: 550;
 }
 
 .about_me a{
@@ -97,91 +111,94 @@ float: left;
 	font-size: 15px;
 	height: 12px;
 	width: 11px;
-	text-align: center;
 	border: 2px solid #6f707e;
-	border-radius: 5px;
+	border-radius: 10px;
+	padding: 7px 7px;
 	background: none;
 }
+
 
 .main3{
 	width: 100%;
 	height: 526px;
-	background: url(../img/фон2.png) no-repeat;
-	background-size: cover;
+	background: url(../img/фон2.png) center/cover no-repeat;
 }
 
 .item_skills{
-	text-align: center;
+	width: 1092px;
+	margin: 0 auto;
 }
 
+
 .item_skills h2{
-	padding-top: 107px;
-	color: #263244;
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 35px;
 	font-size: 27px;
-	font-family: arial; sans-serif;
-	font-weight: 600;
+	color: #263244;
+	text-transform: uppercase;
 }
+
+
+.item_skills hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 100px;
+    }
+
 
 .skil{
 	float: left;
-	margin-top: 108px;
-	padding-left: 200px;
-	width: 100%;
 	text-align: center;
+	width: 215px;
+	margin-left: 50px;
 }
 
 .skil h4{
-	color: #cf7600;
-	margin-top: 40px;
-	font-size: 15px;
-	font-family: arial; sans-serif;
-	font-weight: 600;
+	color: #d17700;
+	font-size: 16px;
+	font-weight: 550;
+	margin-top: 35px;
+	font-weight: bold;
 }
 
 .skil span{
 	display: block;
-	text-align: center;
-	margin-top: 20px;
-	color: #525a69;
-	font-size: 15px;
-	width: 50%;
+	font-size: 16px;
+	color: #263244;
+	padding-top: 10px;
 }
-
-.skil div{
-	float: left;
-}
-.development{
-	margin-left: 50px;
-}
-
-.seo{
-	margin-left: 50px;
-}
-
-.marketing{
-	margin-left: 50px;
-}
-
-
 
 .main4{
 	background: white;
-	height: 2005px;
+	height: 1200px;
 	width: 100%;
 }
 
 .cases{
-	text-align: center;
-	
+	width: 1170px;
+    margin: 0 auto;
 }
 
 .cases h2{
+	text-align: center;
 	padding-top: 107px;
 	color: #263244;
 	font-size: 27px;
-	font-family: arial; sans-serif;
 	font-weight: 600;
+	padding-bottom: 30px;
 }
+
+.cases hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 100px;
+    }
+
 .cases p{
 	display: block;
 	text-align: center;
@@ -189,4 +206,326 @@ float: left;
 	color: #525a69;
 	font-size: 15px;
 	float: center;
+}
+
+.ph{
+	text-align: center;
+	margin-top: 42px;
+	margin-bottom: 45px;
+}
+
+.client{
+	float: left;
+	text-align: left;
+	width: 250px;
+}
+
+.client h3{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.client span{
+	display: block;
+	font-size: 14px;
+	margin-top: 12px;
+}
+
+.client a{
+	display: block;
+	margin-top: 25px;
+	border: 2px solid #63b5ae;
+	background: #63b5ae;
+	height: 40px;
+	width: 200px; 
+	font-size: 16px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: arial; sans-serif;
+	padding: 12px 35px;
+}
+
+.proj{
+	text-align: left;
+	margin-left: 105px;
+	font-family: arial; sans-serif;
+}
+
+.proj h3{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+.proj span{
+	display: block;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+.main5{
+	background: white;
+	height: 450px;
+}
+
+.cost{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.cost h2{
+	margin-top: 120px;
+	font-size: 35px;
+	font-weight: 550;
+	text-align: center;
+}
+
+.cost h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+.calc{
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.select{
+	display: block;
+	margin-bottom: 50px;
+	background: #eeeeee;
+	width: 900px;
+	height: 60px;
+}
+
+
+.result .text{
+	float: left;
+}
+
+.result .number{
+	float: right;
+}
+ 
+.days, .price{
+	padding: 20px;
+	font-size: 21px;
+}
+
+.main6{
+	width: 100%;
+	height: 500px;
+	background: url(../img/фон3.png) no-repeat;
+	background-size: cover;
+}
+
+.stat{
+	width: 1030px;
+	margin: 0 auto;
+}
+
+.stat h2{
+	text-align: center;
+	padding-top: 105px;
+	padding-bottom: 35px;
+	font-size: 30px;
+	color: #323e4f;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.stat hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 40px;
+}
+
+.cifry{
+	margin-top: 80px;
+}
+
+.cifry div{
+	text-align: center;
+	float: left;
+	width: 175px;
+	margin-left: 80px;
+}
+
+.cifry img{
+	height: 50px;
+}
+
+.cifry b{
+	display: block;
+	padding-top: 35px;
+	color: #323e4f;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.cifry p{
+	display: block;
+	color: #323e4f;
+	font-weight: 600;
+	font-size: 14px;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+.main7{
+	background: white;
+	height: 600px;
+	width: 100%;
+}
+
+.rev{
+	float: left 50%;
+	text-align: center;
+}
+
+.rev h2{
+	font-size: 26px;
+	color: #243042;
+	font-family: arial; sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 110px;
+	margin-bottom: 35px;
+}
+
+.rev hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 40px;
+}
+
+.mih{
+	padding-top: 60px;
+}
+
+.rev span{
+	display: block;
+	color: #243042;
+	font-size: 12px;
+	padding-top: 40px;
+}
+
+.main8{
+	background: url(../img/Фон_контакты.png);
+	width: 100%;
+	height: 810px;
+	background-size: cover;
+}
+
+.contacts h2{
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 105px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.contacts hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 40px;
+}
+
+.contacts span{
+	display: block;
+	color: white;
+	font-size: 12px;
+	text-align: center; 
+}
+
+.fot{
+	width: 600px;
+	margin: 0 auto 70px;
+	padding-top: 50px; 
+}
+
+.fot div{
+	float: left;
+	width: 140px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.adres{
+	margin-left: 0;
+}
+
+.fot nav{
+	color: white;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+.write{
+	width: 750px;
+	margin: 0 auto;
+}
+
+.write h2{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.form{
+	text-align: center;
+	width: 750px;
+}
+
+.myname input{
+	display: block;
+	width: 360px;
+	background: rgba(210, 214, 220, 0.93);
+	height: 40px;
+	margin-bottom: 16px;
+}
+
+.inn{
+	float: left;
+}
+
+.in{
+	float: right;
+}
+
+textarea{
+	display: block;
+	width: 750px;
+	height: 100px;
+	background: rgba(210, 214, 220, 0.93);
+}
+
+.ot{
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+	background: none;
+	border: 2px solid white;
+	color: white;
+	border-radius: 10px;
+	padding: 12px 25px;
 }
