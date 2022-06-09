@@ -1,0 +1,81 @@
+﻿
+
+.preloader {
+background: url(../img/fone.jpg);
+width: 100%;
+height: 100%;
+background-size: cover;
+margin: 0 auto;
+}
+
+
+.row1, .row2, .row3{
+  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  animation: grove 3s infinite;
+}
+
+.preloader1, .preloader2, .preloader3{
+  position: absolute;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: solid 0px;
+  background: #fff;
+  animation: girl 3s infinite;
+  transform: scale(0.1);
+}
+
+
+
+.preloader2{
+  animation-delay: 0.25s;
+}
+
+.preloader3{
+  animation-delay: 0.5s;
+}
+
+
+
+
+.row2{
+  animation-delay: 0.25s;
+}
+
+.row3{
+  animation-delay: 0.5s;
+}
+
+@keyframes grove{
+  100%{
+    transform: rotate(360deg);
+    transition-timing-function: cubic-bezier(.38,-0.02,.54,.89);
+  }
+}
+
+@keyframes girl{
+  0%, 100%{
+      transform: scale(0.5);
+      background: #0bebf9; 
+  }
+
+  10%{
+    background: #0bebf9;
+  }
+
+  90%{
+    background: #0bebf9;
+  }
+
+  50%{
+    transform: scale(1);
+    background: #5fef08;
+  }
+
+}
