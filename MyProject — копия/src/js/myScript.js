@@ -20,24 +20,20 @@ var design = prompt ("Дизайн \n"
 
 console.log(design)
 
- if  (design == "a") {
+if  (design == "a") {
 	finish1 = start + a;
-} else {
-	finish1 = 0;
-}
-
-if  (design == "b") {
+	} else if  (design == "b") {
 	finish1 = start + b;
-} else {
-	finish1 = 0;
-}
-if  (design == "c") {
+	} else if  (design == "c") {
 	finish1 = start + c;
-} else {
-	finish1 = 0;
+	} else { 
+	result = 0;
+	}
+
+if (console.log !=="z") {
+	console.log(finish1)
 }
 
-console.log(finish1)
 
 var type = prompt ("Тип сайта \n" 
 + "Введите один из вариантов ответа \n"
@@ -48,24 +44,19 @@ var type = prompt ("Тип сайта \n"
 
 console.log(type)
 
- if  (type == "a") {
+if  (type == "a") {
 	finish2 = start + a;
-} else{
-	finish2 = 0;
-}
-
-if  (type == "b") {
+	} else if  (type == "b") {
 	finish2 = start + b;
-} else{
-	finish2 = 0;
-}
-if  (type == "c") {
+	} else if  (type == "c") {
 	finish2 = start + c;
-} else{
-	finish2 = 0;
-}
+	} else {
+	result = 0;
+	}
 
-console.log(finish2)
+if (console.log !=="z") {
+	console.log(finish2)
+}
 
 
 var adapt = prompt ("Адаптивность сайта\n" 
@@ -77,25 +68,19 @@ var adapt = prompt ("Адаптивность сайта\n"
 
 console.log(adapt)
 
- if  (adapt == "a") {
-	finish3 = start + a;
-} else{
-	finish3 = 0;
-}
-
-if  (adapt == "b") {
+if  (adapt == "a") {
+	finish3 = start + a; 
+	} else if  (adapt == "b") {
 	finish3 = start + b;
-} else{
-	finish3 = 0;
-}
-
-if  (adapt == "c") {
+	} else if  (adapt == "c") {
 	finish3 = start + c;
-} else{
-	finish3 = 0;
-}
+	} else {
+	result = 0;
+	}
 
-console.log(finish3)
+if (console.log !=="z") {
+	console.log(finish3)
+}
 
 let finish = finish1 + finish2 + finish3
 
